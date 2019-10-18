@@ -32,7 +32,7 @@ def take_a_number(katz_deli, name)
     
     else
       puts "Currently serving #{katz_deli.index(0)}."
-      katz_deli.shift
+     # katz_deli.shift
 
   end  
  end 
