@@ -21,8 +21,10 @@ def take_a_number(katz_deli, name)
   else
     
      katz_deli.length > 0
-     katz_deli.each.with_index do |elem,ind| 
-     puts "Welcome, #{elem}. You are number #{ind+1} in line." 
+     katz_deli.push(name)
+     puts "Welcom, #{name}"
+     #katz_deli.each.with_index do |elem,ind| 
+     #puts "Welcome, #{elem}. You are number #{ind+1} in line." 
   end
 
  end  
