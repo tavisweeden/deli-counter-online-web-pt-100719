@@ -22,9 +22,10 @@ def take_a_number(katz_deli, name)
     
      katz_deli.length > 0
      katz_deli.push(name)
-     #katz_deli.each.with_index do |elem,ind| 
      puts "Welcome, #{name}. You are number #{katz_deli.length} in line." 
   end
+  
+  
 
  end  
   
