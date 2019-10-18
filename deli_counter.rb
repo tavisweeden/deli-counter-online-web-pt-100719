@@ -31,7 +31,7 @@ def take_a_number(katz_deli, name)
       puts "There is nobody waiting to be served!"
     
     else
-      puts 
+      puts "Currently serving #{katz_deli."
 
  end  
   
